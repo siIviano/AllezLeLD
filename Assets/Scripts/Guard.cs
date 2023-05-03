@@ -6,6 +6,7 @@ public class Guard : MonoBehaviour
 {
     public List<Transform> points = new List<Transform>(); // La liste de points à atteindre
     public float speed = 5.0f; // La vitesse de déplacement
+    public float rotationSpeed = 10.0f;
     private int currentPoint = 0; // Le point actuel dans la liste
 
     void Update()
@@ -32,6 +33,10 @@ public class Guard : MonoBehaviour
         // Calculer la direction vers le point actuel
         Vector3 direction = points[currentPoint].position - transform.position;
         direction.Normalize();
+
+        // Tourner l'objet vers le point actuel
+        Quaternion rotation = Quaternion.LookRotation(direction, Vector3.up);
+        transform.rotation = Quaternion.Lerp(transform.rotation, rotation, Time.deltaTime * rotationSpeed);
 
         // Déplacer l'objet vers le point actuel
         transform.position += direction * speed * Time.deltaTime;
