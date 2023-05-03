@@ -1,10 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class Interactible : MonoBehaviour
 {
     bool allowInteraction = false;
+    public GameObject interactInput;
+
     
     // Start is called before the first frame update
     void Start()
@@ -29,7 +32,7 @@ public class Interactible : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             allowInteraction = true;
-            //activer l'UI feedback qui indique l'interaction possible
+            interactInput.SetActive(true); //activer l'UI feedback qui indique l'interaction possible
         }
     }
 
@@ -38,7 +41,7 @@ public class Interactible : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             allowInteraction = false;
-            //désactiver l'UI feedback qui indique l'interaction possible
+            interactInput.SetActive(false); //désactiver l'UI feedback qui indique l'interaction possible
         }
     }
 }
