@@ -1,14 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
 
-public class Interactible : MonoBehaviour
+public class ZoneToKill : MonoBehaviour
 {
-    bool allowInteraction = false;
-    public GameObject interactInputText;
+    bool allowKill = false;
+    public GameObject killInputText;
+    public GameObject thisGuard;
 
-    
     // Start is called before the first frame update
     void Start()
     {
@@ -18,11 +17,12 @@ public class Interactible : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(allowInteraction==true)
+        if (allowKill == true)
         {
             if (Input.GetKeyDown(KeyCode.F))
             {
-                Debug.Log("Interaction Done");
+                Debug.Log("GuardKill");
+                Destroy(thisGuard);
             }
         }
     }
@@ -31,8 +31,8 @@ public class Interactible : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            allowInteraction = true;
-            interactInputText.SetActive(true); //activer l'UI feedback qui indique l'interaction possible
+            allowKill = true;
+            killInputText.SetActive(true); //activer l'UI feedback qui indique l'interaction possible
         }
     }
 
@@ -40,8 +40,8 @@ public class Interactible : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            allowInteraction = false;
-            interactInputText.SetActive(false); //désactiver l'UI feedback qui indique l'interaction possible
+            allowKill = false;
+            killInputText.SetActive(false); //désactiver l'UI feedback qui indique l'interaction possible
         }
     }
 }
