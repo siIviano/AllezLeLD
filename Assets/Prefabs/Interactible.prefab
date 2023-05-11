@@ -347,4 +347,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f123452419bd471438aa9ea8f083f7e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactInput: {fileID: 2889051008733184406}
+  interactInputText: {fileID: 2889051008733184406}
