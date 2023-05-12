@@ -14,6 +14,12 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Door.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2PeUKxbFKHhsUYOV49fqSfE4U5W" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -68,7 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1683816985014</updated>
       <workItem from="1683817002100" duration="459000" />
-      <workItem from="1683905010923" duration="32000" />
+      <workItem from="1683886147613" duration="1215000" />
     </task>
     <servers />
   </component>
