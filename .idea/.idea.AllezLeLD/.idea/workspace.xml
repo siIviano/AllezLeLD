@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81160c52-e995-4621-855f-fe1a2b353560" name="Changes" comment="" />
+    <list default="true" id="81160c52-e995-4621-855f-fe1a2b353560" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Character/Materials/M_Armature_Arms.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Character/Materials/M_Armature_Arms.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Character/Materials/M_Armature_Body.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Character/Materials/M_Armature_Body.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Character/Materials/M_Armature_Legs.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Character/Materials/M_Armature_Legs.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/3Cs/PlayerArmature.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/3Cs/PlayerArmature.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Guard Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Guard Variant.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/KF_LD4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/KF_LD4.unity" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
