@@ -22,6 +22,7 @@ public class Key : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.F))
             {
                 tookKey = true;
+                Destroy(gameObject);
                 Debug.Log("Got Key");
             }
         }

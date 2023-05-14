@@ -489,21 +489,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Level Muraille
       objectReference: {fileID: 0}
-    - target: {fileID: 3305092064707787267, guid: f5d2e9a5456ea644fac397d52b410231,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3305092064856221002, guid: f5d2e9a5456ea644fac397d52b410231,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3305092065467285488, guid: f5d2e9a5456ea644fac397d52b410231,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4213710935890661332, guid: f5d2e9a5456ea644fac397d52b410231,
         type: 3}
       propertyPath: m_RootOrder
@@ -558,16 +543,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4932228156876063148, guid: f5d2e9a5456ea644fac397d52b410231,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -9.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 4932228156876063148, guid: f5d2e9a5456ea644fac397d52b410231,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.26
       objectReference: {fileID: 0}
     - target: {fileID: 5301645295368243662, guid: f5d2e9a5456ea644fac397d52b410231,
         type: 3}
