@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using TMPro;
 
 public class CastleDoor : MonoBehaviour
@@ -21,7 +22,7 @@ public class CastleDoor : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.F))
             {
-                public static void LoadScene(int sceneIndex);
+                SceneManager.LoadScene(sceneIndex);
                 Debug.Log("Got Key");
             }
         }
