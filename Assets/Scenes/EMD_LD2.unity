@@ -653,6 +653,11 @@ PrefabInstance:
       objectReference: {fileID: 1278857232}
     - target: {fileID: 1601930043624703593, guid: 2c2e158c4f628ae4d9e4d97734be5609,
         type: 3}
+      propertyPath: sceneToReload
+      value: EMD_LD2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1601930043624703593, guid: 2c2e158c4f628ae4d9e4d97734be5609,
+        type: 3}
       propertyPath: points.Array.size
       value: 6
       objectReference: {fileID: 0}
@@ -3948,6 +3953,11 @@ PrefabInstance:
       objectReference: {fileID: 1278857232}
     - target: {fileID: 1601930043624703593, guid: 2c2e158c4f628ae4d9e4d97734be5609,
         type: 3}
+      propertyPath: sceneToReload
+      value: EMD_LD2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1601930043624703593, guid: 2c2e158c4f628ae4d9e4d97734be5609,
+        type: 3}
       propertyPath: points.Array.size
       value: 6
       objectReference: {fileID: 0}
@@ -6902,6 +6912,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1278857232}
+    - target: {fileID: 1601930043624703593, guid: 2c2e158c4f628ae4d9e4d97734be5609,
+        type: 3}
+      propertyPath: sceneToReload
+      value: EMD_LD2
+      objectReference: {fileID: 0}
     - target: {fileID: 1601930043624703593, guid: 2c2e158c4f628ae4d9e4d97734be5609,
         type: 3}
       propertyPath: points.Array.size
@@ -11376,6 +11391,11 @@ PrefabInstance:
       objectReference: {fileID: 1278857232}
     - target: {fileID: 1601930043624703593, guid: 2c2e158c4f628ae4d9e4d97734be5609,
         type: 3}
+      propertyPath: sceneToReload
+      value: EMD_LD2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1601930043624703593, guid: 2c2e158c4f628ae4d9e4d97734be5609,
+        type: 3}
       propertyPath: points.Array.size
       value: 4
       objectReference: {fileID: 0}
@@ -14167,6 +14187,11 @@ PrefabInstance:
       objectReference: {fileID: 1278857232}
     - target: {fileID: 1601930043624703593, guid: 2c2e158c4f628ae4d9e4d97734be5609,
         type: 3}
+      propertyPath: sceneToReload
+      value: EMD_LD2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1601930043624703593, guid: 2c2e158c4f628ae4d9e4d97734be5609,
+        type: 3}
       propertyPath: points.Array.size
       value: 4
       objectReference: {fileID: 0}
@@ -14657,6 +14682,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1278857232}
+    - target: {fileID: 1601930043624703593, guid: 2c2e158c4f628ae4d9e4d97734be5609,
+        type: 3}
+      propertyPath: sceneToReload
+      value: EMD_LD2
+      objectReference: {fileID: 0}
     - target: {fileID: 1601930043624703593, guid: 2c2e158c4f628ae4d9e4d97734be5609,
         type: 3}
       propertyPath: points.Array.size
@@ -15263,6 +15293,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1278857232}
+    - target: {fileID: 1601930043624703593, guid: 2c2e158c4f628ae4d9e4d97734be5609,
+        type: 3}
+      propertyPath: sceneToReload
+      value: EMD_LD2
+      objectReference: {fileID: 0}
     - target: {fileID: 1601930043624703593, guid: 2c2e158c4f628ae4d9e4d97734be5609,
         type: 3}
       propertyPath: points.Array.size
@@ -18012,6 +18047,11 @@ PrefabInstance:
       objectReference: {fileID: 1278857232}
     - target: {fileID: 1601930043624703593, guid: 2c2e158c4f628ae4d9e4d97734be5609,
         type: 3}
+      propertyPath: sceneToReload
+      value: EMD_LD2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1601930043624703593, guid: 2c2e158c4f628ae4d9e4d97734be5609,
+        type: 3}
       propertyPath: points.Array.size
       value: 0
       objectReference: {fileID: 0}
@@ -20388,41 +20428,81 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1278857232}
+    - target: {fileID: 5301645295368243662, guid: f5d2e9a5456ea644fac397d52b410231,
+        type: 3}
+      propertyPath: sceneToReload
+      value: EMD_LD2
+      objectReference: {fileID: 0}
     - target: {fileID: 5301645295451001179, guid: f5d2e9a5456ea644fac397d52b410231,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1278857232}
+    - target: {fileID: 5301645295451001179, guid: f5d2e9a5456ea644fac397d52b410231,
+        type: 3}
+      propertyPath: sceneToReload
+      value: EMD_LD2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5301645295596742622, guid: f5d2e9a5456ea644fac397d52b410231,
         type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1278857232}
     - target: {fileID: 5301645295596742622, guid: f5d2e9a5456ea644fac397d52b410231,
         type: 3}
+      propertyPath: sceneToReload
+      value: EMD_LD2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5301645295716912200, guid: f5d2e9a5456ea644fac397d52b410231,
+        type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1278857232}
     - target: {fileID: 5301645295716912200, guid: f5d2e9a5456ea644fac397d52b410231,
+        type: 3}
+      propertyPath: sceneToReload
+      value: EMD_LD2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5301645296311032321, guid: f5d2e9a5456ea644fac397d52b410231,
         type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1278857232}
     - target: {fileID: 5301645296311032321, guid: f5d2e9a5456ea644fac397d52b410231,
         type: 3}
+      propertyPath: sceneToReload
+      value: EMD_LD2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5301645296889463010, guid: f5d2e9a5456ea644fac397d52b410231,
+        type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1278857232}
     - target: {fileID: 5301645296889463010, guid: f5d2e9a5456ea644fac397d52b410231,
+        type: 3}
+      propertyPath: sceneToReload
+      value: EMD_LD2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5301645296951739805, guid: f5d2e9a5456ea644fac397d52b410231,
         type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1278857232}
     - target: {fileID: 5301645296951739805, guid: f5d2e9a5456ea644fac397d52b410231,
         type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 1278857232}
+      propertyPath: sceneToReload
+      value: EMD_LD2
+      objectReference: {fileID: 0}
     - target: {fileID: 5301645297018555820, guid: f5d2e9a5456ea644fac397d52b410231,
         type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1278857232}
+    - target: {fileID: 5301645297018555820, guid: f5d2e9a5456ea644fac397d52b410231,
+        type: 3}
+      propertyPath: sceneToReload
+      value: EMD_LD2
+      objectReference: {fileID: 0}
     - target: {fileID: 6892768771035784643, guid: f5d2e9a5456ea644fac397d52b410231,
         type: 3}
       propertyPath: m_IsActive
@@ -21677,6 +21757,11 @@ PrefabInstance:
       objectReference: {fileID: 1278857232}
     - target: {fileID: 1601930043624703593, guid: 2c2e158c4f628ae4d9e4d97734be5609,
         type: 3}
+      propertyPath: sceneToReload
+      value: EMD_LD2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1601930043624703593, guid: 2c2e158c4f628ae4d9e4d97734be5609,
+        type: 3}
       propertyPath: points.Array.size
       value: 0
       objectReference: {fileID: 0}
@@ -21837,6 +21922,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1278857232}
+    - target: {fileID: 1601930043624703593, guid: 2c2e158c4f628ae4d9e4d97734be5609,
+        type: 3}
+      propertyPath: sceneToReload
+      value: EMD_LD2
+      objectReference: {fileID: 0}
     - target: {fileID: 1601930043624703593, guid: 2c2e158c4f628ae4d9e4d97734be5609,
         type: 3}
       propertyPath: points.Array.size
@@ -24750,51 +24840,101 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1278857232}
+    - target: {fileID: 2064690862738044628, guid: 487dd4b4113bdef41b27ebdc9430d40f,
+        type: 3}
+      propertyPath: sceneToReload
+      value: EMD_LD2
+      objectReference: {fileID: 0}
     - target: {fileID: 2064690862741188009, guid: 487dd4b4113bdef41b27ebdc9430d40f,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1278857232}
+    - target: {fileID: 2064690862741188009, guid: 487dd4b4113bdef41b27ebdc9430d40f,
+        type: 3}
+      propertyPath: sceneToReload
+      value: EMD_LD2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2064690862765998508, guid: 487dd4b4113bdef41b27ebdc9430d40f,
         type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1278857232}
     - target: {fileID: 2064690862765998508, guid: 487dd4b4113bdef41b27ebdc9430d40f,
         type: 3}
+      propertyPath: sceneToReload
+      value: EMD_LD2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2064690863147219966, guid: 487dd4b4113bdef41b27ebdc9430d40f,
+        type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1278857232}
     - target: {fileID: 2064690863147219966, guid: 487dd4b4113bdef41b27ebdc9430d40f,
+        type: 3}
+      propertyPath: sceneToReload
+      value: EMD_LD2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2064690863376967099, guid: 487dd4b4113bdef41b27ebdc9430d40f,
         type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1278857232}
     - target: {fileID: 2064690863376967099, guid: 487dd4b4113bdef41b27ebdc9430d40f,
         type: 3}
+      propertyPath: sceneToReload
+      value: EMD_LD2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2064690863390429453, guid: 487dd4b4113bdef41b27ebdc9430d40f,
+        type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1278857232}
     - target: {fileID: 2064690863390429453, guid: 487dd4b4113bdef41b27ebdc9430d40f,
+        type: 3}
+      propertyPath: sceneToReload
+      value: EMD_LD2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2064690863657404390, guid: 487dd4b4113bdef41b27ebdc9430d40f,
         type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1278857232}
     - target: {fileID: 2064690863657404390, guid: 487dd4b4113bdef41b27ebdc9430d40f,
         type: 3}
+      propertyPath: sceneToReload
+      value: EMD_LD2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2064690864312621818, guid: 487dd4b4113bdef41b27ebdc9430d40f,
+        type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1278857232}
     - target: {fileID: 2064690864312621818, guid: 487dd4b4113bdef41b27ebdc9430d40f,
+        type: 3}
+      propertyPath: sceneToReload
+      value: EMD_LD2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2064690864580898043, guid: 487dd4b4113bdef41b27ebdc9430d40f,
         type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1278857232}
     - target: {fileID: 2064690864580898043, guid: 487dd4b4113bdef41b27ebdc9430d40f,
         type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 1278857232}
+      propertyPath: sceneToReload
+      value: EMD_LD2
+      objectReference: {fileID: 0}
     - target: {fileID: 2064690864720394557, guid: 487dd4b4113bdef41b27ebdc9430d40f,
         type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1278857232}
+    - target: {fileID: 2064690864720394557, guid: 487dd4b4113bdef41b27ebdc9430d40f,
+        type: 3}
+      propertyPath: sceneToReload
+      value: EMD_LD2
+      objectReference: {fileID: 0}
     - target: {fileID: 2675023984281412671, guid: 487dd4b4113bdef41b27ebdc9430d40f,
         type: 3}
       propertyPath: m_IsActive
