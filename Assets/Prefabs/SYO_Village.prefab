@@ -2513,6 +2513,16 @@ PrefabInstance:
       value: I heared that a killer is in town. It seems that someone wants to kill
         the king.
       objectReference: {fileID: 0}
+    - target: {fileID: 1601930044226482319, guid: 2c2e158c4f628ae4d9e4d97734be5609,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1601930044226482319, guid: 2c2e158c4f628ae4d9e4d97734be5609,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 1893170841287786608, guid: 2c2e158c4f628ae4d9e4d97734be5609,
         type: 3}
       propertyPath: m_RootOrder
@@ -3509,6 +3519,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_text
       value: You can't go out of the town. There is a curfew for some emergency.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1601930044226482319, guid: 2c2e158c4f628ae4d9e4d97734be5609,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1601930044226482319, guid: 2c2e158c4f628ae4d9e4d97734be5609,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 1893170841287786608, guid: 2c2e158c4f628ae4d9e4d97734be5609,
         type: 3}
@@ -5595,6 +5615,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_text
       value: Hyppy to rest today, i can chill in the inn.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1601930044226482319, guid: 2c2e158c4f628ae4d9e4d97734be5609,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1601930044226482319, guid: 2c2e158c4f628ae4d9e4d97734be5609,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 1893170841287786608, guid: 2c2e158c4f628ae4d9e4d97734be5609,
         type: 3}
@@ -8899,3 +8929,4 @@ MonoBehaviour:
   interactInputText: {fileID: 1874559584216733049}
   guardToDestroy1: {fileID: 1986729484922808951}
   guardToDestroy2: {fileID: 1986729484199464366}
+  fireEffect: {fileID: 0}
