@@ -9512,6 +9512,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4213710935890661332}
     m_Modifications:
+    - target: {fileID: 5252881558996891458, guid: 4820fdbd3fd65b447aee2e414bb1e63b,
+        type: 3}
+      propertyPath: m_text
+      value: F - Enter Castle
+      objectReference: {fileID: 0}
     - target: {fileID: 8247783158172058616, guid: 4820fdbd3fd65b447aee2e414bb1e63b,
         type: 3}
       propertyPath: m_Enabled
@@ -11299,6 +11304,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4213710935890661332}
     m_Modifications:
+    - target: {fileID: 5252881558996891458, guid: 4820fdbd3fd65b447aee2e414bb1e63b,
+        type: 3}
+      propertyPath: m_text
+      value: F - Enter Castle
+      objectReference: {fileID: 0}
     - target: {fileID: 8247783158172058616, guid: 4820fdbd3fd65b447aee2e414bb1e63b,
         type: 3}
       propertyPath: m_Enabled
