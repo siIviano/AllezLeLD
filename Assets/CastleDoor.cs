@@ -1,28 +1,28 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using TMPro;
 
-public class Key : MonoBehaviour
+public class CastleDoor : MonoBehaviour
 {
     bool allowInteraction = false;
     public GameObject interactInputText;
-    public bool tookKey = false;
+    public int sceneIndex;
 
-    
+
     void Start()
     {
-        
+
     }
-    
+
     void Update()
     {
-        if(allowInteraction==true)
+        if (allowInteraction == true)
         {
             if (Input.GetKeyDown(KeyCode.F))
             {
-                tookKey = true;
-                Destroy(gameObject);
+                SceneManager.LoadScene(sceneIndex);
                 Debug.Log("Got Key");
             }
         }
