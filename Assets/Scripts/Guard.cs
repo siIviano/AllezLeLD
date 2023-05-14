@@ -69,8 +69,13 @@ public class Guard : MonoBehaviour
                 {
                     if (hit.collider.CompareTag("Player"))
                     {
-                        Debug.Log("Player détecté");
-                        routineOrHunt = false;
+                        Debug.Log("Player détecté dans le champ de vision du garde");
+                        if(player.position.y-transform.position.y<1.75)
+                        {
+                            Debug.Log("Player pas trop haut pour être détecté, chasse lancée");
+                            routineOrHunt = false;
+                        }
+
                         /*// Pas d'obstacle entre le joueur et le garde
                         // Tourner l'objet vers le joueur
                         Quaternion playerRotation = Quaternion.LookRotation(playerDirection, Vector3.up);
