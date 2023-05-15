@@ -9,6 +9,7 @@ public class SetFire : MonoBehaviour
 
     public GameObject guardToDestroy1;
     public GameObject guardToDestroy2;
+    public GameObject fireEffect;
 
     // Start is called before the first frame update
     void Start()
@@ -27,6 +28,7 @@ public class SetFire : MonoBehaviour
                 //Faire disparaitre les gardes de l'entrée et jouer un effet de feu sur l'église
                 Destroy(guardToDestroy1);
                 Destroy(guardToDestroy2);
+                fireEffect.SetActive(true);
             }
         }
     }
