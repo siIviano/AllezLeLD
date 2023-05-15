@@ -121,7 +121,7 @@ public class Guard : MonoBehaviour
             float distanceWithPlayer = Vector3.Distance(transform.position, player.position);
 
             // Si la distance est très petite, joueur attrapé
-            if (distanceWithPlayer < 0.25f)
+            if (distanceWithPlayer < 0.75f)
             {
                 Debug.Log("Attrapé et mort !");
                 SceneManager.LoadScene(sceneToReload);
